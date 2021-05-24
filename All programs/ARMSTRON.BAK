@@ -1,0 +1,35 @@
+#include<iostreamx.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<math.h>
+void main()
+{
+ char q;
+// clrscr();
+ do
+ {
+ clrscr();
+ int n,r,s=0;
+ cout<<"\nPlease enter the number";
+ cin>>n;
+ int h=n;
+ while(h!=0)
+  {
+   r=h%10;
+   s=s+pow(r,3);
+   h=h/10;
+  }
+  if(s==n) cout<<"\nNO IS ARMSTRONG ";
+  else
+  {
+   cout<<"\nNo is not armstrong ";
+   //cout<<"\nAs "<<s<<" <> "<<n;
+   }
+  getch();
+  cout<<"\nIF YOU WANNA DO THIS PRGRAM AGAIN PRESS Y IF NO PRESS N";
+  cin>>q;
+  }
+  while (q=='y' || q=='Y');
+  if (q=='n' || q=='N')
+  exit;
+  }

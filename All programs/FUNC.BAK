@@ -1,0 +1,29 @@
+#include<iostream.h>
+#include<conio.h>
+#include<iomanip.h>
+
+void numcal(int num[], int n)
+{
+ float prod=1;
+ float sum=0;
+ cout<<"\nPlease enter the numbers-:";
+ for (int j=0;j<n;j++)
+  cin>>num[j];
+
+ for (int i=0;i<n;i++)
+  {
+   sum+=num[i];
+   prod*=num[i];
+  }
+ cout<<"\nThe product of numbers is ="<<prod;
+ cout<<"\nThe sum of numbers        ="<<sum;
+}
+void main()
+{
+ clrscr();
+ int *a,n;
+ cout<<"\nHow many numbers you want to enter ";
+ cin>>n;
+ numcal(a,n);
+ getch();
+}

@@ -1,0 +1,19 @@
+//Program of array
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ int a[6]; // 6 array elements can be added in identifier
+ cout<<"\nA
+ cout<<"\nPlease enter first element";
+ cin>>a[0];
+ cout<<"\nPlease enter second element";
+ cin>>a[1];
+ cout<<"\nPlease enter third element";
+ cin>>a[2];
+ cout<<"\nPlease enter fourth element";
+ cin>>a[3];
+ cout<<"\nPlease enter fifth element";
+ cin>>a[4];
+ cout<<"\nPlease enter sixth element";
+ cin>>a[5];

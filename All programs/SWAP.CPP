@@ -1,0 +1,40 @@
+#include<iostream.h>
+#include<conio.h>
+
+void swap (int a[],int n)
+{
+ cout<<"\nPlease enter contents in array ";
+ for (int i =0;i<n;i++)
+ {
+  cin>>a[i];
+ }
+ clrscr();
+ cout<<"\nThe original array is ={";
+ for (int j=0;j<n;j++)
+  cout<<a[j]<<",";
+ cout<<"}";
+ int temp;
+ for (int k=0;k<n;k+=2)
+ {
+  temp=a[k];
+  a[k]=a[k+1];
+  a[k+1]=temp;
+ }
+ cout<<"\nNew Changed Array is ={";
+ for (int l=0;l<n;l++)
+  cout<<a[l]<<",";
+ cout<<"}";
+}
+void main()
+{
+ clrscr();
+ int *array,b;
+ do
+{
+ cout<<"\nHow many Numbers you want to enter ";
+ cin>>b;
+} while (b%2!=0);
+ swap(array,b);
+ getch();
+}
+

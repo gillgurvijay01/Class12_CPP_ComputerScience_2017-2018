@@ -1,0 +1,11 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+ float amnt,nrte,opt;
+ float sil=5,gold=10,pla=25;
+ cout<<"\nEnter tne initial amount===";
+ cin>>amnt;
+ cout<<"\nIf the payment is done from silver(5% disc.) card press....."
+       "\nIf the payment is done from gold(10% disc.)  card press

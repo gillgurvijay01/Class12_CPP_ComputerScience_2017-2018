@@ -1,0 +1,16 @@
+#include<iostream.h>
+#include<string.h>
+#include<stdio.h>
+#include<conio.h>
+#include<ctype.h>
+void main()
+{
+ clrscr();
+ int v;
+ char a;
+ cin>>a;
+ v=a;
+ cout<<v;
+ getch();
+}
+

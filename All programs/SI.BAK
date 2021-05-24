@@ -1,0 +1,23 @@
+// This is program to find simple intrest
+
+#include<iostream.h>
+#include<conio.h>
+#include<math.h>
+
+void main()
+{
+ clrscr();
+ int P;
+ int T;
+ float R;
+ float SI;
+ cout<<"Please enter Principal amount";
+ cin>>P;
+ cout<<"Please enter rate of intrest" ;
+ cin>>R;
+ cout<<"Please enter time(in Years)";
+ cin>>T;
+ SI=(P*R*T)/100;
+ cout<<"Simple intrest is  "<<SI;
+ getch ();
+}

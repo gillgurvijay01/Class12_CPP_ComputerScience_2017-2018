@@ -1,0 +1,13 @@
+#include<fstream.h>
+void replace()
+{
+ fstream f("abc.tct",ios::in|ios::out);
+ char ch;
+ while(!f.eof())
+ {
+  ch=f.get();
+  if(ch==' ')
+  {
+   ch='=';
+   f.seekp(-1,ios::cur)
+   f<<

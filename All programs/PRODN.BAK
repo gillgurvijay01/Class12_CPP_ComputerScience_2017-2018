@@ -1,0 +1,23 @@
+//This is program to calculate PRODUCT of n given numbers
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+    clrscr();
+    int NUM,N;
+    float PROD=1;
+    int count=0;
+    cout<<"\nPlease enter value of n";
+    cin>>N;
+    cout<<"\nPlease enter first no.";
+    cin>>NUM;
+    count++;
+    PROD=PROD*NUM;
+L1: cout<<"\nPlease enter next no.";
+    cin>>NUM;
+    PROD=PROD*NUM;
+    count++;
+    if (count<N) goto L1;
+    cout<<"\nPRODUCT                 ="<<PROD;
+    getch();
+}

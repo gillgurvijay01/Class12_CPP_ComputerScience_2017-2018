@@ -1,0 +1,21 @@
+// SI WITH FUNCTION
+#include<iostream.h>
+#include<conio.h>
+void si(float a,float b, float c)
+{
+ float si=(a*b*c)/100.0;
+ cout<<"\nSimple Intrest=="<<si;
+}
+void main()
+{
+ clrscr();
+ float p,r,t;
+ cout<<"\nPlease enter Principal=======";
+ cin>>p;
+ cout<<"\nPlease enter Rate============";
+ cin>>r;
+ cout<<"\nPlease enter time(in years)==";
+ cin>>t;
+ si(p,r,t);
+ getch();
+}

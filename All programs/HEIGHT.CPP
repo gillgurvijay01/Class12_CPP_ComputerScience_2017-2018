@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ unsigned int h;
+ float q,newtemp;
+ cout<<"\nPlease enter height :";
+ cin>>h;
+ q=(float)h/550;
+ newtemp=212-q;
+ cout<<"\nBoiling temp at "<<h<<" ft. above sea level is "<<newtemp<<" deg. fahrenheight";
+ getch();
+}

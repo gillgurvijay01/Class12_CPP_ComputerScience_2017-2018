@@ -1,0 +1,9 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+ int nat=1 , cnt=1,n;
+ cout<<"\nPlease enter value on n . . . . . . . . ";
+ cin>>n;
+ while (cnt<n)

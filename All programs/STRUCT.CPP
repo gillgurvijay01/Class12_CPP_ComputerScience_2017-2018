@@ -1,0 +1,62 @@
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+#include<stdio.h>
+#include<iomanip.h>
+// Structure declared to store marks
+struct mks
+{
+ float maths;
+ float eng;
+ float opt;
+ float phy;
+ float chem;
+};
+// structure to store a student data
+struct stu_data
+{
+ char *name;
+  mks marks;
+};
+
+void readstu1(stu_data &a)
+{
+ cout<<"\nPlease enter name -";
+ gets(a.name);
+ cout<<"\nPlease enter marks in all subject ";
+ cin>>a.marks.maths>>a.marks.eng>>a.marks.opt>>a.marks.phy>>a.marks.chem;
+}
+
+stu_data readstu2()
+{
+ stu_data a;
+ cout<<"\nPlease enter name -";
+ gets(a.name);
+ cout<<"\nPlease enter marks in all subject ";
+ cin>>a.marks.maths>>a.marks.eng>>a.marks.opt>>a.marks.phy>>a.marks.chem;
+ return (a);
+}
+void display(stu_data a)
+{
+
+ cout<<"\nyour name is-";
+ puts(a.name);
+ cout<<"\nyour marks in all subject ";
+ cout<<a.marks.maths<<endl
+     <<a.marks.eng<<endl
+     <<a.marks.opt<<endl
+     <<a.marks.phy<<endl
+     <<a.marks.chem<<endl;
+}
+
+void main()
+{
+ clrscr();
+ stu_data abc;
+ readstu1(abc);
+ display(abc);
+ getch();
+ stu_data z=readstu2();
+ display(z);
+ getch();
+}

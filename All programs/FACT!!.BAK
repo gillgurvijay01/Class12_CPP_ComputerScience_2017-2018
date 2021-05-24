@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+ clrscr();
+
+ double num;
+ long double fact=1;
+ cout<<"\nPlease enter no.";
+ cin>>num;
+ for( double i=num;i>=1;i=i-1)
+ {
+
+  fact=fact*i;
+ }
+ cout<<"\n"<<fact;
+ getch();
+ }

@@ -1,0 +1,14 @@
+// This is Program to find CSA,TSA and volume of cone
+#include<iostream.h>
+#include<conio.h>
+#include<math.h>
+
+void main()
+{
+ float R,H,L,TSA,CSA,V;
+ cout<<"Please enter radius of cone :";
+ cin>>R;
+ cout<<"Please enter height of cone :";
+ cin>>H;
+ L=sqrt(R*R+H*H);
+ TSA=

@@ -1,0 +1,13 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ char a[50];
+ cout<<"\nWelcome Press Enter ";
+ getch();
+ cout<<"\nPlease enter your name....:-";
+ cin.getline(a,50);
+ cout<<"\nEntered name is "<<a;
+ getch();
+}

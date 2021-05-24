@@ -1,0 +1,31 @@
+/*This is a program to compare that sum of first two nubers is greater than
+ the other two or not */
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ clrscr
+ float n1,n2,n3,n4,s1,s2;
+ cout<<"\nPlease enter first number   :";
+ cin>>n1;
+ cout<<"\nPlease enter second number  :";
+ cin>>n2;
+ s1=n1+n2;
+ cout<<"\nThe sum of first two number is :"<<s1;
+ cout<<"\nPlease enter another number    :";
+ cin>>n3;
+ cout<<"\nPlease enter the last number   :";
+ cin>>n4;
+ s2=n3+n4;
+ cout<<"\nThe sum of next two numbers is ;";
+ if (s1<s2)
+  {
+   cout<<"\nThe sum of first two nuber is greater";
+   getch();
+  }
+ if (s2>s1)
+ { cout<<"\nThe sum of first two nuber is greater";
+   getch();
+ }
+ getch();
+ }

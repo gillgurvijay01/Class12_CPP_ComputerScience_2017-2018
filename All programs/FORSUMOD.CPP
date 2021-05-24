@@ -1,0 +1,21 @@
+//program to display 10 nat no by for
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ int n;
+ cout<<"\nWrite value of n";
+ cin>>n;
+ int od;
+ od=(2*n)-1; //for finalizing the limit
+ int cnt=1,nat=1,s=0;
+ for (cnt=1;cnt<=od;cnt=cnt+2)
+ {
+    // cout<<nat<<endl;
+     s=s+nat;
+     nat++;
+ }
+ cout<<"\nsum of first "<<n<<" od numbers is"<<endl<<s;
+ getch();
+}

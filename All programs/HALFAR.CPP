@@ -1,0 +1,37 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ int *a,n;
+ cout<<"\nPlease enter no of elements....";
+ cin>>n;
+ a=new int[n];
+ for (int i=0;i<n;i++)
+ {
+  cin>>a[i];
+ }
+ clrscr();
+ cout<<"\nOriginal array"
+       "\nA={";
+ for (int j=0;j<n;j++)
+ {
+  cout<<a[j]<<"," ;
+ }
+ cout<<"\b}";
+ int p=n/2,q=p;
+ for (int k=0;k<q;k++)
+ {
+  int temp=a[k];
+  a[k]=a[p];
+  a[p]=temp;
+  p++;
+ }
+ cout<<"\nNew array....\nA={";
+ for (int z=0;z<n;z++)
+ {
+  cout<<a[z]<<",";
+ }
+ cout<<"\b}";
+ getch();
+}

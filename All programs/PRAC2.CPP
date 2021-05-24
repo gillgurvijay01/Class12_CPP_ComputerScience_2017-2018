@@ -1,0 +1,32 @@
+#include<iostream.h>
+#include<math.h>
+#include<conio.h>
+double calsum(int x,int n)
+{
+ double sum=1-x;
+ int a=1;
+ for (int i=2;i<=n;i+=2)
+ {
+  if(a%2==0) sum=sum-pow(x,i);
+  else sum=sum+pow(x,i);
+  a++;
+ }
+ return (sum);
+}
+void main()
+{
+ clrscr();
+ int x,n;
+ cout<<"\nPlease enter value of x -:";
+ cin>>x;
+ cout<<"\nPlease enter value of n -:";
+ cin>>n;
+ if (n%2!=0)
+  {
+   cout<<"\nplease enter even value of n";
+   cin>>n;
+  }
+ double sumoof=calsum(x,n);
+ cout<<"\nThe sum of the series is "<<sumoof;
+ getch();
+}
