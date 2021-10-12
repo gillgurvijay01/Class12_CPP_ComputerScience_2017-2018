@@ -14,4 +14,36 @@ basic to advance.
 [![GitHub last commit](https://img.shields.io/github/last-commit/gillgurvijay01/grade12-cs)]()
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/gillgurvijay01/grade12-cs)]()
 
+## All Programs :
+
+### A.cpp
+
+This is the program to find sum of two numbers with a condition that these two numbers must be in range of  0<n<50
+
+INPUT 1
+
+```
+INPUT :
+Pl enter first no.(0<n<50) :10
+Pl enter second no. (0<n<50) :20
+
+OUTPUT:
+the sum of 10 and 20 is =30
+```
+
+INPUT 2 
+
+```
+INPUT:
+Pl enter first no.(0<n<50) :10
+Pl enter second no. (0<n<50) :60
+Pl enter second no. (0<n<50) :45
+OUTPUT:
+the sum of 10 and 45 is =55
+
+
+EXPLAINATION : Second Number entered was not in the range
+```
+
+
 Will be soon adding details about all programs...
