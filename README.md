@@ -318,6 +318,60 @@ Pl enetr your choice ...:**********************3
 
 
 
+### AR.cpp
+
+Program to swap adjacent elements of an array
+
+input 1
+
+```
+
+Enter number of elements...5
+1
+2
+3
+4
+5
+
+Original array......
+
+A={1,2,3,4,5}
+New array......
+A={2,1,4,3,5}
+```
+
+input 2
+
+```
+
+Enter number of elements...6
+1
+2
+3
+4
+5
+6
+
+Original array......
+
+A={1,2,3,4,5,6}
+New array......
+A={2,1,4,3,6,5}
+```
+
+input 3
+
+```
+
+Enter number of elements...4
+12 32 45 65
+
+Original array......
+
+A={12,32,45,65}
+New array......
+A={32,12,65,45}
+```
 
 
 Will be soon adding details about all programs...
