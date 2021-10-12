@@ -44,6 +44,70 @@ the sum of 10 and 45 is =55
 
 EXPLAINATION : Second Number entered was not in the range
 ```
+### ALLFACTE.CPP
+
+This is the programs to find SUM and PRINT  all  EVEN factors of a given number 
+
+INPUT 1
+
+```
+INPUT :
+
+Please enter the value of N :40
+All factors of 40 are -: 
+2
+4
+8
+10
+20
+40
+
+
+OUTPUT :
+Sum of all even factors of 40 is ====== 84
+```
+
+INPUT 2
+
+```
+INPUT:
+Please enter the value of N 86
+All factors of 86 are -: 
+2
+86
+
+OUTPUT:
+Sum of all even factors of 86 is ====== 88
+
+```
+
+INPUT 3
+
+```
+INPUT:
+Please enter the value of N 15
+
+All factors of 15 are -: 
+
+OUTPUT:
+Sum of all even factors of 15 is ====== 0
+
+
+EXPLAINATION: THERE IS NO EVEN FACTOR OF THIS NUMBER
+```
+
+INPUT 4
+
+```
+INPUT:
+Please enter the value of N 0
+
+All factors of 0 are -: 
+
+OUTPUT:
+Sum of all even factors of 0 is ====== 0
+```
+
 
 
 Will be soon adding details about all programs...
