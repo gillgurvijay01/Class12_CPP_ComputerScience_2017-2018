@@ -242,6 +242,80 @@ All factors of 100 are -:
 Sum of all odd facts of 100 is ===31
 ```
 
+### AP.CPP
+
+Program to find nth term ,  sum , series of ap ( ARITHMETIC PROGRESSION)
+
+input 1
+
+```
+
+Please enter a first term of A.P. ***************:10
+
+Please enter the common difference of A.P.*******:3
+
+Please enter no. of terms of that A.P.:**********:5
+
+
+If you want to find nth` term of ap************ press 1*************************
+
+If you want to find Sum of n terms************* press 2*************************
+
+If you want to find full AP. series************ press 3*************************
+
+Pl enetr your choice ...:**********************1
+
+The nth` term the ap is 22
+```
+
+input 2
+
+```
+
+Please enter a first term of A.P. ***************:10
+
+Please enter the common difference of A.P.*******:3
+
+Please enter no. of terms of that A.P.:**********:5
+
+
+If you want to find nth` term of ap************ press 1*************************
+
+If you want to find Sum of n terms************* press 2*************************
+
+If you want to find full AP. series************ press 3*************************
+
+Pl enetr your choice ...:**********************2
+
+The sum of n terms of that ap is 64
+```
+
+input 3
+
+```
+
+Please enter a first term of A.P. ***************:10
+
+Please enter the common difference of A.P.*******:3
+
+Please enter no. of terms of that A.P.:**********:5
+
+
+If you want to find nth` term of ap************ press 1*************************
+
+If you want to find Sum of n terms************* press 2*************************
+
+If you want to find full AP. series************ press 3*************************
+
+Pl enetr your choice ...:**********************3
+10
+13
+16
+19
+22
+
+```
+
 
 
 
