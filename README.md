@@ -54,6 +54,9 @@ INPUT 1
 INPUT :
 
 Please enter the value of N :40
+
+
+OUTPUT :
 All factors of 40 are -: 
 2
 4
@@ -63,7 +66,7 @@ All factors of 40 are -:
 40
 
 
-OUTPUT :
+
 Sum of all even factors of 40 is ====== 84
 ```
 
@@ -72,11 +75,14 @@ INPUT 2
 ```
 INPUT:
 Please enter the value of N 86
+
+
+OUTPUT:
 All factors of 86 are -: 
 2
 86
 
-OUTPUT:
+
 Sum of all even factors of 86 is ====== 88
 
 ```
@@ -87,9 +93,10 @@ INPUT 3
 INPUT:
 Please enter the value of N 15
 
+OUTPUT:
 All factors of 15 are -: 
 
-OUTPUT:
+
 Sum of all even factors of 15 is ====== 0
 
 
@@ -102,10 +109,34 @@ INPUT 4
 INPUT:
 Please enter the value of N 0
 
+OUTPUT:
 All factors of 0 are -: 
 
-OUTPUT:
+
 Sum of all even factors of 0 is ====== 0
+```
+
+### ALLFACTN.CPP
+
+Program to find sum and print all factors of a given number 
+
+input 1
+
+```
+INPUT:
+Please enter the value of N           -:45
+
+
+OUTPUT
+All factors of 45 are               -:
+1
+3
+5
+9
+15
+45
+
+Sum of all factors of 45 is =====-:78
 ```
 
 
