@@ -139,6 +139,57 @@ All factors of 45 are               -:
 Sum of all factors of 45 is =====-:78
 ```
 
+INPUT 2
+
+```
+INPUT:
+Please enter the value of N           -:352
+
+OUTPUT:
+All factors of 352 are               -:
+1
+2
+4
+8
+11
+16
+22
+32
+44
+88
+176
+352
+
+Sum of all factors of 352 is =====-:756
+```
+
+INPUT 3
+
+```
+INPUT:
+Please enter the value of N           -:71
+
+OUTPUT:
+All factors of 71 are               -:
+1
+71
+
+Sum of all factors of 71 is =====-:72
+```
+
+INPUT 4
+
+```
+INPUT:
+Please enter the value of N           -:0
+
+OUTPUT:
+All factors of 0 are               -:
+
+Sum of all factors of 0 is =====-:0
+```
+
+
 
 
 Will be soon adding details about all programs...
