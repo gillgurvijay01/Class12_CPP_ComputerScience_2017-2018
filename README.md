@@ -188,6 +188,60 @@ All factors of 0 are               -:
 
 Sum of all factors of 0 is =====-:0
 ```
+### ALLFACTO.CPP
+
+Program to find and print all odd factors and thier sum 
+
+input 1
+
+```
+INPUT:
+Please enter the value of N45
+
+
+OUTPUT:
+All factors of 45 are -: 
+1
+3
+5
+9
+15
+45
+
+Sum of all odd facts of 45 is ===78
+```
+
+input 2
+
+```
+INPUT:
+Please enter the value of N 412
+
+
+OUTPUT
+All factors of 412 are -: 
+1
+103
+
+Sum of all odd facts of 412 is ===104
+```
+
+INPUT 3
+
+```
+INPUT:
+Please enter the value of N 100
+
+
+OUTPUT:
+All factors of 100 are -: 
+1
+5
+25
+
+Sum of all odd facts of 100 is ===31
+```
+
 
 
 
